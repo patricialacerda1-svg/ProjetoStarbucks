@@ -10,7 +10,7 @@
 }
 
 #container{
-    background-image: url('../imagens/background-mobile.png');
+    background-image: url('/workspaces/ProjetoStarbucks/src/css/imagens/background-mobile.png');
     background-size: contain;
 }
 
@@ -21,7 +21,7 @@
     font-weight: 700;
     position: relative;
 
-    &::before{
+    .title::before{
         content: "";
         display: block;
         width: 60px;
@@ -165,7 +165,7 @@ a.btn{
     flex-direction: column;
     align-items: center;
     background-color: var(--color-primary-1);
-    background-image: url('../imagens/about/bg-about.png');
+    background-image: url('/workspaces/ProjetoStarbucks/src/css/imagens/about/bg-about.png');
     min-height: calc(100vh -96px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     border-radius: 32px;
@@ -173,7 +173,7 @@ a.btn{
     .title{
         color: var(--color-neutral-0);
 
-        &::before{
+        .title::before{
             background-color: var(--color-secundary-1);
         }
     }
@@ -235,7 +235,7 @@ a.btn{
             align-items: center;
             justify-content: center;
             background-color: var(--color-primary-1);
-            background-image: url('../imagens/novidades/background.png');
+            background-image: url('/workspaces/ProjetoStarbucks/src/css/imagens/novidades/background.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -260,7 +260,7 @@ a.btn{
                     align-items: center;
                     flex-direction: column;
 
-                    spam{
+                    span {
                         color: var(--color-secundary-1);
                         font-size: 1.2rem;
                     }
@@ -273,7 +273,7 @@ a.btn{
 
 @media (min-width: 768px){
     #container{
-      background-image: url(../imagens/background-desktop.png);
+      background-image: url('/workspaces/ProjetoStarbucks/src/css/imagens/background-desktop.png');
       background-size: cover;
       background-position: start;
       background-repeat: no-repeat;

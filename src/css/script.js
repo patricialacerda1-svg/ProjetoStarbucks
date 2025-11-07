@@ -1,5 +1,5 @@
 const mobileBtn = document.querySelector('.btn-mobile');
-const navLinks = document.getElementById('nav-links');
+const navLinks = document.getElementById('#nav-links');
 const icon = document.querySelector('.btn-mobile i');
 
 mobileBtn.addEventListener('click',() => {
